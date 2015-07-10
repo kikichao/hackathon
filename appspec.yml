@@ -1,10 +1,13 @@
 version: 0.0
 os: linux
 files:
-  - source: /app
+  - source: /app/index.html
     destination: /var/www/html/
 	
   - source: /app/images/hackathon.png
+    destination: /var/www/html/
+	
+  - source: /app/healthcheck.html
     destination: /var/www/html/
 hooks:
   BeforeInstall:
