@@ -4,6 +4,8 @@ os: linux
 files:
    - source: /index.html
      destination: /var/www/html
+   - source: /images/hackathon.png
+     destination: /var/www/html/images
 permissions:
    - object: /var/www/html
      pattern: "**"
