@@ -3,6 +3,9 @@ os: linux
 files:
   - source: /app
     destination: /var/www/html/
+	
+  - source: /app/images/hackathon.png
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
